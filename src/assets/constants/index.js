@@ -88,7 +88,7 @@ export const projects = [
     frameworks: [
       { id: 1, name: "C++" },
       { id: 2, name: "Streamlit" },
-      { id: 3, name: "React.js" },
+      { id: 3, name: "React.js " },
     ],
   },
 ];
