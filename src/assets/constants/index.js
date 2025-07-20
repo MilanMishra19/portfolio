@@ -53,13 +53,14 @@ export const projects = [
     name: "FinOps",
     description:
       "A system designed to analyze real-time financial transactions, using rules and/or machine learning, to detect and flag suspicious activities like fraud or money laundering for immediate investigation. It ensures regulatory compliance and protects against financial crime.",
-    href: "",
+    href: "https://github.com/MilanMishra19/finops/blob/main/README.md",
     image: "/finops.jpeg",
     bgImage: "/wealth.png",
     frameworks: [
-      { id: 1, name: "Apache kafka" },
-      { id: 2, name: "Java SpringBoot" },
+      { id: 1, name: "FastAPI" },
+      { id: 2, name: "SpringBoot" },
       { id: 3, name: "Next.js" },
+      { id: 4, name: "Neon postgreSQL"}
     ],
   },
   {
@@ -79,16 +80,17 @@ export const projects = [
   },
   {
     id: 5,
-    name: "Ausboard AI",
+    name: "Ausboard",
     description:
-      "A lightning-fast core component of an exchange that instantly matches buy and sell orders based on price-time priority, crucial for high-frequency trading where every microsecond counts",
+      "Comprehensive testing platform for API testing, UI optimization and user experience.",
     href: "",
     image: "/ausboard.jpeg",
     bgImage: "/justice.png",
     frameworks: [
-      { id: 1, name: "C++" },
-      { id: 2, name: "Streamlit" },
-      { id: 3, name: "React.js " },
+      { id: 1, name: "Ntexjs" },
+      { id: 2, name: "Springboot" },
+      { id: 3, name: "Selenium" },
+      { id: 4, name: "Neon postgreSQL"}
     ],
   },
 ];
