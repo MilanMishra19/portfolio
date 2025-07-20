@@ -89,8 +89,10 @@ function Works() {
                         <div ref={(el)=>(overlayRefs.current[index]=el)} className='absolute inset-0 hidden md:block bg-black duration-200 -z-10 clip-path'/>
 
                         <div className="flex justify-between px-10 text-black transition-all duration-500 md:group-hover:px-12 md:group-hover:text-white">
+                            <a href={project.href}>
                             <h2 className='lg:text-3xl text-2xl leading-none'>{project.name}</h2>
                             <Icon icon="tabler:arrow-up-right" className='md:size-6 size-5' />
+                            </a>
                         </div>
                         <div className='w-full h-0.5 bg-black/80'/>
                         <div className="flex px-10 text-xs leading-loose uppercase transition-all duration-500 md:text-sm gap-x-5 md:group-hover:px-12">
